@@ -1,0 +1,10 @@
+{
+  "name": "@aphorica/read-plugin",
+  "version": "1.0.0",
+  "description": "Loads and parses js file",
+  "main": "index.js",
+  "repository": "https://github.com/Aphorica/read-plugin",
+  "author": "Rick Berger - Aphorica, Inc. <gbergeraph@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
