@@ -1,19 +1,3 @@
-//////////////////////////////////////////////////////////////
-//
-// Load, parse, and return a plugin object.
-//
-// Seems like in the past, 'require' worked in a dynamic context,
-// but no more, especially in a webpack environment.
-//
-// So.  Is this a security issue?  Might be in a web context,
-// not sure about electron context.
-//
-// Alternative is to load all import all plugins at once into an
-// indexed group and select from the group.  Might do that if
-// using beyond the initial context.  This gets me going.
-//
-// 16-Mar-2019 - rickb
-
 "use strict"
 
 const fs = require('fs')
